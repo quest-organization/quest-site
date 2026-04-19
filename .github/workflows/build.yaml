@@ -1,4 +1,4 @@
-name: Build
+name: Build Test
 
 on:
   push:
@@ -7,9 +7,12 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   docker-build:
-    name: Test Docker Build
+    name: Build Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
