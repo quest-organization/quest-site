@@ -1,5 +1,4 @@
 import { useRouteError, isRouteErrorResponse } from 'react-router-dom'
-import logoBanner from '../assets/logoBanner.svg'
 import './comingSoon.css'
 
 export default function ErrorPage() {

@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider, useRouteError, isRouteErrorResponse } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ComingSoon from './routes/comingSoon'
 import ErrorPage from './routes/error'
 import Invite from './routes/bot/invite'
