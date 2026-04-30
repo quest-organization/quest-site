@@ -2,7 +2,11 @@ import { type RouteConfig, index, route, layout, prefix } from "@react-router/de
 
 export default [
     index("routes/home.tsx"),
-    route("bot/invite", "routes/bot/invite.tsx"),
+    ...prefix("bot", [
+        route("invite", "routes/bot/invite.tsx"),
+        route("github", "routes/bot/github.tsx"),
+        route("docs", "routes/bot/docs.tsx"),
+    ]),
     route("discord", "routes/discord/discordInvite.tsx"),
     route("*", "routes/$.tsx"),
 ] satisfies RouteConfig;
