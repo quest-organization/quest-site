@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function DiscordInvite() {
     useEffect(() => {
         window.location.replace(
-            'https://discord.gg/ksuqZ77R88'
+            'https://discord.gg/F4HYE8frK2'
         );
     }, []);
 
