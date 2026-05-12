@@ -1,11 +1,10 @@
 import type { Route } from "./+types/home";
 import { ComingSoon } from "./landing/comingSoon";
-import logoBanner from './landing/logoBanner.svg'
 
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Duck Organization" },
-    { image: logoBanner },
+    { property: "og:image", content: "https://duckorg.com/logoBanner.svg" },
     { name: "description", content: "The one and only Duck Organization." },
   ];
 }
