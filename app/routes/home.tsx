@@ -1,10 +1,12 @@
 import type { Route } from "./+types/home";
 import { ComingSoon } from "./landing/comingSoon";
+import logoBanner from './landing/logoBanner.svg'
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Quest" },
-    { name: "description", content: "The official site for Quest Foundation." },
+    { title: "Duck Organization" },
+    { image: logoBanner },
+    { name: "description", content: "The one and only Duck Organization." },
   ];
 }
 
