@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function Invite() {
     useEffect(() => {
         window.location.replace(
-            'https://docs.questfoundation.dev/'
+            'https://docs.duckorg.com/'
         );
     }, []);
     
