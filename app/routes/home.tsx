@@ -4,7 +4,7 @@ import { ComingSoon } from "./landing/comingSoon";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Duck Organization" },
-    { property: "og:image", content: "https://duckorg.com/logoBanner.svg" },
+    { property: "og:image", content: "https://duckorg.com/logoBanner.png" },
     { name: "description", content: "The one and only Duck Organization." },
   ];
 }
