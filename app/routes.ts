@@ -7,6 +7,9 @@ export default [
         route("github", "routes/bot/github.tsx"),
         route("docs", "routes/comingSoon/comingSoon.tsx"),
     ]),
+    ...prefix("feedback", [
+        route("products", "routes/feedback/productSuggestion.tsx"),
+    ]),
     route("discord", "routes/discord/discordInvite.tsx"),
     route("*", "routes/$.tsx"),
 ] satisfies RouteConfig;
