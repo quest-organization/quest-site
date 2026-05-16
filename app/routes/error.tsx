@@ -1,7 +1,6 @@
 import { isRouteErrorResponse, useNavigate } from "react-router";
 import { useEffect } from "react";
 import type { Route } from "./+types/home";
-import "./landing/landing.css";
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     const navigate = useNavigate();

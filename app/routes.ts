@@ -11,6 +11,7 @@ export default [
         route("products", "routes/feedback/productSuggestion.tsx"),
         route("questbot", "routes/feedback/QuestBotFeedback.tsx"),
     ]),
+    route("sponsors", "routes/sponsors/sponsors.tsx"),
     route("discord", "routes/discord/discordInvite.tsx"),
     route("*", "routes/$.tsx"),
 ] satisfies RouteConfig;

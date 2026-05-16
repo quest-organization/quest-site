@@ -1,6 +1,5 @@
-import './landing.css'
 import { useNavigate } from "react-router";
-import logo from './logoBanner.svg'
+const logo = '/logoBanner.svg'
 import { Button } from "~/components/button/button";
 import { Nav } from "~/components/nav/nav";
 
